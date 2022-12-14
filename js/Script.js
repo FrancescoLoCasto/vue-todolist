@@ -54,7 +54,9 @@ createApp({
 
    addItemList(){
       if (this.newItemListShop != '' && this.newItemListShop.length >= 2) {
-         
+         let newElementList = { text: this.newItemListShop, done: false}
+         this.shopList.push(newElementList);
+         this.newItemListShop = '';
      }
    }
 
