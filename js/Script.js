@@ -42,4 +42,10 @@ createApp({
 
     }
   },
+
+  methods: {
+   removeItemList(itemToRemove){
+      
+   }
+  }
 }).mount('#app')
