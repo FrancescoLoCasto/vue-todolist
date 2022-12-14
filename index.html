@@ -35,8 +35,8 @@
                   <div class="col-12">
 
                      <div class="textbox">
-                        <input type="text" name="" id="">
-                        <button class="btn btn-warning m-1">Aggiungi alla lista!</button>
+                        <input type="text" v-model.trim="newItemList" @keyup.enter="addItemList()">
+                        <button class="btn btn-warning m-1" @click="addItemList()">Aggiungi alla lista!</button>
                      </div>
 
                      <div class="listbox text-light">
