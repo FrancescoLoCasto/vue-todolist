@@ -45,7 +45,10 @@ createApp({
 
   methods: {
    removeItemList(itemToRemove){
-      
+      const listIndex = this.shopList.indexOf(itemToRemove);
+      if ( listIndex > -1 ) {
+          this.shopList.splice(listIndex, 1)
+      }
    }
   }
 }).mount('#app')
