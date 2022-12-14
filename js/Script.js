@@ -61,7 +61,7 @@ createApp({
    },
 
    textThro(index){
-      
+      (this.shopList[index].done) ? this.shopList[index].done = false : this.shopList[index].done = true;
    }
 
   }
