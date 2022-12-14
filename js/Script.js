@@ -5,6 +5,7 @@ createApp({
     return {
 
       index: 0,
+      newItemListShop : '',
       shopList: [
          {
             text: "burro",
