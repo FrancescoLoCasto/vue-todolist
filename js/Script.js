@@ -5,7 +5,7 @@ createApp({
     return {
 
       index: 0,
-      newItemListShop : '',
+      newItemListShopListShop : '',
       shopList: [
          {
             text: "burro",
@@ -53,7 +53,9 @@ createApp({
    },
 
    addItemList(){
-      
+      if (this.newItemListShop != '' && this.newItemListShop.length >= 2) {
+         
+     }
    }
 
   }
