@@ -4,6 +4,13 @@ createApp({
   data() {
     return {
       
+      shopList: [
+         {
+            text: 'burro',
+            done: true
+         }
+      ],
+
     }
   }
 }).mount('#app')
