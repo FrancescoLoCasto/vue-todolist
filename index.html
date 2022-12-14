@@ -31,15 +31,15 @@
                <div class="row">
                   <div class="col-12">
 
-                     <div class="listbox">
+                     <div class="listbox text-light">
                         
                         <h1>
                            La tua lista della spesa:
                         </h1>
 
                         <ul>
-                           <li>
-                              element
+                           <li v-for="(item, index) in shopList">
+                              {{ item.text }}
                            </li>
                         </ul>
 

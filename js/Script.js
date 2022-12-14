@@ -1,44 +1,45 @@
-import { createApp } from 'vue'
+const { createApp } = Vue
 
 createApp({
   data() {
     return {
 
+      index: 0,
       shopList: [
          {
-            text: 'burro',
+            text: "burro",
             done: true,
          },
          {
-            text: 'latte',
+            text: "latte",
             done: true,
          },
          {
-            text: 'riso',
+            text: "riso",
             done: false,
          },
          {
-            text: 'farina',
+            text: "farina",
             done: true,
          },
          {
-            text: 'pellicola',
+            text: "pellicola",
             done: false,
          },
          {
-            text: 'scottex',
+            text: "scottex",
             done: true,
          },
          {
-            text: 'pane',
+            text: "pane",
             done: true,
          },
          {
-            text: 'cioccolata',
+            text: "cioccolata",
             done: false,
          },
-      ],
+      ]
 
     }
-  }
+  },
 }).mount('#app')
