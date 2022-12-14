@@ -4,7 +4,7 @@ createApp({
   data() {
     return {
 
-      index: 0,
+
       newItemListShopListShop : '',
       shopList: [
          {
@@ -58,6 +58,10 @@ createApp({
          this.shopList.push(newElementList);
          this.newItemListShop = '';
      }
+   },
+
+   textThro(index){
+      
    }
 
   }
