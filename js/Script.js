@@ -49,6 +49,11 @@ createApp({
       if ( listIndex > -1 ) {
           this.shopList.splice(listIndex, 1)
       }
+   },
+
+   addItemList(){
+      
    }
+
   }
 }).mount('#app')
