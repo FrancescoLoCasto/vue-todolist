@@ -46,7 +46,7 @@
                         </h1>
 
                         <ul>
-                           <li v-for="(item, index) in shopList"  :class="(newItemListShopListShop.done) ? 'throug-text' : '' ">
+                           <li v-for="(item, index) in shopList"  :class="(item.done) ? 'throug-text' : '' ">
                               {{ item.text }}
                               <i class="fa-solid fa-eraser" @click="removeItemList(item)"></i>
                            </li>

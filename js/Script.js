@@ -5,7 +5,7 @@ createApp({
     return {
 
 
-      newItemListShopListShop : '',
+      newItemListShop : '',
       shopList: [
          {
             text: "burro",
@@ -54,7 +54,7 @@ createApp({
 
    addItemList(){
       if (this.newItemListShop != '' && this.newItemListShop.length >= 2) {
-         let newElementList = { text: this.newItemListShop, done: false}
+         let newElementListShop = { text: this.newItemListShop, done: false}
          this.shopList.push(newElementList);
          this.newItemListShop = '';
      }
